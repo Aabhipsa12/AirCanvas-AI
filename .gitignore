@@ -1,0 +1,42 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables & local secrets
+.env
+.env.local
+
+# Logs and databases
+*.log
+
+# Large Pre-trained Models (auto-downloaded on first run)
+models/*.task
